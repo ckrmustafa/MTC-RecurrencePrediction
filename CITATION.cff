@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: "MTC-RecurrencePrediction: Machine Learning Pipeline for Predicting Recurrence in Medullary Thyroid Carcinoma"
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: "SOYADI"
+    given-names: "ADINIZ"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "Your Institution"
+  # Varsa diğer yazarları da ekleyin:
+  # - family-names: "Doe"
+  #   given-names: "Jane"
+  #   orcid: "https://orcid.org/0000-0000-0000-0000"
+  #   affiliation: "Institution"
+repository-code: "https://github.com/GITHUB_KULLANICI_ADINIZ/MTC-RecurrencePrediction"
+url: "https://github.com/GITHUB_KULLANICI_ADINIZ/MTC-RecurrencePrediction"
+license: CC-BY-4.0
+version: 1.0.0
+date-released: "2025-05-20"
+keywords:
+  - medullary thyroid carcinoma
+  - machine learning
+  - recurrence prediction
+  - survival analysis
+  - explainable AI
+  - SHAP
+  - R
+# Makale yayınlandığında aşağıdaki bölümü aktif edin:
+# preferred-citation:
+#   type: article
+#   authors:
+#     - family-names: "SOYADI"
+#       given-names: "ADINIZ"
+#   title: "Makale Başlığı"
+#   journal: "Dergi Adı"
+#   year: 2025
+#   doi: "10.xxxx/xxxxx"

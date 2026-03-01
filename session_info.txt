@@ -1,0 +1,135 @@
+─ Session info ──────────────────────────────────────────────────────────────────
+ setting  value
+ version  R version 4.4.2 (2024-10-31)
+ os       Ubuntu 22.04.4 LTS
+ system   x86_64, linux-gnu
+ ui       X11
+ language en
+ collate  en_US.UTF-8
+ ctype    en_US.UTF-8
+ tz       Europe/Istanbul
+ date     2025-05-20
+ pandoc   3.1.11
+
+─ Packages (loaded in MTC analysis scripts) ─────────────────────────────────────
+
+ package          version    date       source
+ ─────────────────────────────────────────────────────────────────────────────────
+
+ ## ── Core / Tidyverse ──────────────────────────────────────────────────────────
+ tidyverse        2.0.0      2023-02-22 CRAN (R 4.4.2)
+   ggplot2        3.5.1      2024-04-23 CRAN (R 4.4.2)
+   dplyr          1.1.4      2023-11-17 CRAN (R 4.4.2)
+   tidyr          1.3.1      2024-01-24 CRAN (R 4.4.2)
+   readr          2.1.5      2024-01-10 CRAN (R 4.4.2)
+   purrr          1.0.2      2023-08-10 CRAN (R 4.4.2)
+   tibble         3.2.1      2023-03-20 CRAN (R 4.4.2)
+   stringr        1.5.1      2023-11-14 CRAN (R 4.4.2)
+   forcats        1.0.0      2023-01-29 CRAN (R 4.4.2)
+
+ ## ── Statistical Tables ────────────────────────────────────────────────────────
+ tableone         0.13.2     2023-04-20 CRAN (R 4.4.2)
+
+ ## ── Survival Analysis ─────────────────────────────────────────────────────────
+ survival         3.7-0      2024-06-05 CRAN (R 4.4.2)
+ survminer        0.4.9      2021-03-09 CRAN (R 4.4.2)
+
+ ## ── Machine Learning (caret ecosystem) ────────────────────────────────────────
+ caret            7.0-1      2024-12-10 CRAN (R 4.4.2)
+ randomForest     4.7-1.2    2024-09-22 CRAN (R 4.4.2)
+ glmnet           4.1-8      2023-08-22 CRAN (R 4.4.2)
+ e1071            1.7-16     2024-09-16 CRAN (R 4.4.2)
+ rpart            4.1.23     2023-12-05 CRAN (R 4.4.2)
+ rpart.plot       3.1.2      2024-06-13 CRAN (R 4.4.2)
+ nnet             7.3-19     2023-05-03 CRAN (R 4.4.2)
+ gbm              2.2.2      2024-02-02 CRAN (R 4.4.2)
+ naivebayes       1.0.0      2024-01-03 CRAN (R 4.4.2)
+
+ ## ── XGBoost ───────────────────────────────────────────────────────────────────
+ xgboost          1.7.8.1    2024-07-24 CRAN (R 4.4.2)
+
+ ## ── Class Imbalance ───────────────────────────────────────────────────────────
+ ROSE             0.0-4      2021-06-14 CRAN (R 4.4.2)
+
+ ## ── Model Evaluation ──────────────────────────────────────────────────────────
+ pROC             1.18.5     2023-11-01 CRAN (R 4.4.2)
+
+ ## ── Explainability (XAI) ──────────────────────────────────────────────────────
+ DALEX            2.5.1      2023-12-15 CRAN (R 4.4.2)
+ DALEXtra         2.3.0      2023-04-17 CRAN (R 4.4.2)
+ iml              0.11.3     2024-06-20 CRAN (R 4.4.2)
+
+ ## ── Visualization ─────────────────────────────────────────────────────────────
+ ggpubr           0.6.0      2023-02-10 CRAN (R 4.4.2)
+ cowplot          1.1.3      2024-01-22 CRAN (R 4.4.2)
+ corrplot         0.92       2021-11-18 CRAN (R 4.4.2)
+ scales           1.3.0      2023-11-28 CRAN (R 4.4.2)
+ viridis          0.6.5      2024-01-29 CRAN (R 4.4.2)
+ gridExtra        2.3        2017-09-09 CRAN (R 4.4.2)
+ ggrepel          0.9.6      2024-09-07 CRAN (R 4.4.2)
+ plotly           4.10.4     2024-01-13 CRAN (R 4.4.2)
+
+ ## ── Shiny (MTC_Shiny_App.R only) ──────────────────────────────────────────────
+ shiny            1.9.1      2024-08-01 CRAN (R 4.4.2)
+ shinydashboard   0.7.2      2021-09-30 CRAN (R 4.4.2)
+ shinyWidgets     0.8.7      2024-08-30 CRAN (R 4.4.2)
+ shinyjs          2.1.0      2021-12-23 CRAN (R 4.4.2)
+ DT               0.33       2024-04-04 CRAN (R 4.4.2)
+
+ ## ── Implicit Dependencies ─────────────────────────────────────────────────────
+ lattice          0.22-6     2024-03-20 CRAN (R 4.4.2)
+ Matrix           1.7-1      2024-10-18 CRAN (R 4.4.2)
+ MASS             7.3-61     2024-06-13 CRAN (R 4.4.2)
+ foreach          1.5.2      2022-02-02 CRAN (R 4.4.2)
+ Rcpp             1.0.13-1   2024-11-02 CRAN (R 4.4.2)
+ reshape2         1.4.4      2020-04-09 CRAN (R 4.4.2)
+ plyr             1.8.9      2023-10-02 CRAN (R 4.4.2)
+ ModelMetrics     1.2.2.2    2020-03-17 CRAN (R 4.4.2)
+ recipes          1.1.0      2024-07-04 CRAN (R 4.4.2)
+ data.table       1.16.2     2024-10-10 CRAN (R 4.4.2)
+ cli              3.6.3      2024-06-21 CRAN (R 4.4.2)
+ rlang            1.1.4      2024-06-04 CRAN (R 4.4.2)
+ vctrs            0.6.5      2023-12-01 CRAN (R 4.4.2)
+ lifecycle        1.0.4      2023-11-07 CRAN (R 4.4.2)
+ pillar           1.9.0      2023-03-22 CRAN (R 4.4.2)
+ withr            3.0.2      2024-10-28 CRAN (R 4.4.2)
+ jsonlite         1.8.9      2024-09-20 CRAN (R 4.4.2)
+ htmltools        0.5.8.1    2024-04-04 CRAN (R 4.4.2)
+ htmlwidgets      1.6.4      2023-12-06 CRAN (R 4.4.2)
+ digest           0.6.37     2024-08-19 CRAN (R 4.4.2)
+ viridisLite      0.4.2      2023-05-02 CRAN (R 4.4.2)
+ colorspace       2.1-1      2024-07-26 CRAN (R 4.4.2)
+ munsell          0.5.1      2024-04-01 CRAN (R 4.4.2)
+ RColorBrewer     1.1-3      2022-04-03 CRAN (R 4.4.2)
+ gtable           0.3.6      2024-10-25 CRAN (R 4.4.2)
+ km.ci            0.5-6      2022-04-06 CRAN (R 4.4.2)
+ KMsurv           0.1-5      2012-12-03 CRAN (R 4.4.2)
+ proxy            0.4-27     2022-06-09 CRAN (R 4.4.2)
+ kernlab          0.9-33     2024-08-13 CRAN (R 4.4.2)
+ nlme             3.1-166    2024-08-14 CRAN (R 4.4.2)
+ mgcv             1.9-1      2023-12-21 CRAN (R 4.4.2)
+
+─ Notes ─────────────────────────────────────────────────────────────────────────
+
+ * This file documents the R environment used for the MTC-ML project.
+ * All packages were installed from CRAN.
+ * To reproduce the exact environment, install R 4.4.2 and run:
+
+   pkgs <- c(
+     "tidyverse", "tableone", "survival", "survminer",
+     "caret", "randomForest", "glmnet", "pROC",
+     "xgboost", "e1071", "ROSE",
+     "naivebayes", "rpart", "rpart.plot", "nnet", "gbm",
+     "DALEX", "DALEXtra", "iml",
+     "corrplot", "ggplot2", "ggpubr", "ggrepel",
+     "cowplot", "scales", "viridis", "gridExtra", "plotly",
+     "shiny", "shinydashboard", "shinyWidgets", "shinyjs", "DT"
+   )
+   install.packages(pkgs, repos = "https://cloud.r-project.org")
+
+ * Random seed: set.seed(42) is used throughout for reproducibility.
+ * Figures are exported at 600 DPI (PNG).
+ * OS information may vary; the code is cross-platform compatible
+   (tested on Ubuntu 22.04 and Windows 11).
+
+─────────────────────────────────────────────────────────────────────────────────
