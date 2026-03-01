@@ -3,17 +3,12 @@ title: "MTC-RecurrencePrediction: Machine Learning Pipeline for Predicting Recur
 message: "If you use this software, please cite it using the metadata from this file."
 type: software
 authors:
-  - family-names: "SOYADI"
-    given-names: "ADINIZ"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
-    affiliation: "Your Institution"
-  # Varsa diğer yazarları da ekleyin:
-  # - family-names: "Doe"
-  #   given-names: "Jane"
-  #   orcid: "https://orcid.org/0000-0000-0000-0000"
-  #   affiliation: "Institution"
-repository-code: "https://github.com/GITHUB_KULLANICI_ADINIZ/MTC-RecurrencePrediction"
-url: "https://github.com/GITHUB_KULLANICI_ADINIZ/MTC-RecurrencePrediction"
+  - family-names: "Cakir"
+    given-names: "Mustafa"
+    orcid: "https://orcid.org/0000-0002-1794-9242"
+    affiliation: "Iskenderun Technical University"
+repository-code: "https://github.com/ckrmustafa/MTC-RecurrencePrediction"
+url: "https://github.com/ckrmustafa/MTC-RecurrencePrediction"
 license: CC-BY-4.0
 version: 1.0.0
 date-released: "2025-05-20"
@@ -29,9 +24,9 @@ keywords:
 # preferred-citation:
 #   type: article
 #   authors:
-#     - family-names: "SOYADI"
-#       given-names: "ADINIZ"
+#     - family-names: "Cakir"
+#       given-names: "Mustafa"
 #   title: "Makale Başlığı"
 #   journal: "Dergi Adı"
-#   year: 2025
+#   year: 2026
 #   doi: "10.xxxx/xxxxx"
